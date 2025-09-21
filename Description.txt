@@ -114,3 +114,7 @@ DataTypes :-
  ex: let name='Eme'
  typescript automatically knows this is string which is called as type inference
 
+ ex:
+ create a varaible and do uppercase 
+ use tsc command to update the .js file and use node datatypes -> to see the output
+

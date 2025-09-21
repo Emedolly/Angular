@@ -95,4 +95,22 @@ Angular itself is a front end fmk that runs in the browser. However development 
 Short : 
 You will write angular/typescript code for the browser, but you use node.js based tools on your development machine to build it 
 
-*Check the physical notes upto this for better understanding 
+*Check the physical notes upto this for better understanding (Angular)
+
+Single Page Application: 
+you can use modern frameworks like angular, React OR vue to create SPA
+SPA does not make requests to server for every URL requests
+
+These are all the bunch of js code which is ready to render what ever the info is required for that particular Page
+
+How does angular helps with SPA:
+Anagular has routing functionality to create SPA 
+Angular also offers SSR(Server side rendering) which supports SPA
+SSR is good for SEO's search enginer optimization otherwise use SPA
+
+DataTypes :-
+ Data types, type inference, Union and intersection types, Generics, literal types 
+
+ ex: let name='Eme'
+ typescript automatically knows this is string which is called as type inference
+

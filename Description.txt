@@ -150,4 +150,7 @@ const enum Color {
 let c: Color = Color.Blue; 
 by using this we should not get any function code in JS only the let c=2 will get displayed for the production
 
+Tuples:
+Swapping of numbers can be done with the array also but it doesnot give any compile time error where as tuple can give in the typescript
+
 

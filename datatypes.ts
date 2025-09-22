@@ -41,3 +41,14 @@ const enum Color {
 }
 
 let c: Color = Color.Blue;
+
+//Tuples
+let swapNumbs : [number,number];
+function SwapNumbers(num1:number,num2:number) :[number,number]{
+  return [num2,num1];
+}
+swapNumbs = SwapNumbers(10,20);
+swapNumbs[0];
+swapNumbs[1];
+//swapNumbs[2]; // gives error as tuple has only 2 elements
+console.log(swapNumbs);

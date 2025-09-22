@@ -117,4 +117,37 @@ DataTypes :-
  ex:
  create a varaible and do uppercase 
  use tsc command to update the .js file and use node datatypes -> to see the output
+node can be used to run the code locally to see the output 
+
+number : 
+let age: Number;
+
+boolean:
+In dot net default value for boolean is false but in js/ts if we just write let isvalid : boolean it will be undefined so make a default value for that 
+
+array :
+let emplist=[];
+
+*when you are compiling the typescript code to javascript the type inference can be removed
+
+enum :
+let c: Color = Color.Blue;
+when you compile this it will generate much lines of code which is not required for the production environment so use const so that enum will have the indexing which will take the respective value.
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 0] = "Red";
+    Color[Color["Green"] = 1] = "Green";
+    Color[Color["Blue"] = 2] = "Blue";
+})(Color || (Color = {}));
+let c = Color.Blue;
+the above piece of code will get generated if we dont use const
+const enum Color {
+  Red,
+  Green,
+  Blue
+}
+
+let c: Color = Color.Blue; 
+by using this we should not get any function code in JS only the let c=2 will get displayed for the production
+
 

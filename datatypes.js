@@ -37,4 +37,22 @@ var Color;
     Color[Color["Blue"] = 2] = "Blue";
 })(Color || (Color = {}));
 let c = Color.Blue;
+//Tuples
+let swapNumbs;
+function SwapNumbers(num1, num2) {
+    return [num2, num1];
+}
+swapNumbs = SwapNumbers(10, 20);
+swapNumbs[0];
+swapNumbs[1];
+//swapNumbs[2]; // gives error as tuple has only 2 elements
+console.log(swapNumbs);
+//Any
+let department;
+department = "IT";
+department = 10;
+department = true;
+console.log(department);
+//void and never
+//functions
 //# sourceMappingURL=datatypes.js.map

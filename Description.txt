@@ -153,4 +153,14 @@ by using this we should not get any function code in JS only the let c=2 will ge
 Tuples:
 Swapping of numbers can be done with the array also but it doesnot give any compile time error where as tuple can give in the typescript
 
+Any :
+we can use any type of assignemnt recommended dont use this because this might fail in the production
+void :
+it willl nort return anything so always use the datattype
+
+Functions:
+different ways to write function as business logic which can be reused 
+
+
+
 

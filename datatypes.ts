@@ -52,3 +52,15 @@ swapNumbs[0];
 swapNumbs[1];
 //swapNumbs[2]; // gives error as tuple has only 2 elements
 console.log(swapNumbs);
+
+//Any
+let department:any;
+department = "IT";
+department = 10;
+department = true;
+console.log(department);
+
+//void and never
+
+
+//functions

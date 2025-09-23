@@ -161,6 +161,9 @@ it willl nort return anything so always use the datattype
 Functions:
 different ways to write function as business logic which can be reused 
 
+GenericFunction:
+
+
 
 
 

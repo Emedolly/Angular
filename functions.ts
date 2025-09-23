@@ -32,3 +32,4 @@ function add2(num1:number , num2:number, ...num3:number[]):number{
   return num1+num2+num3.reduce((accum,current)=>accum+current,0);
 }
 console.log(add2(10,20,...[30,40,50])); 
+

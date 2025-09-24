@@ -161,8 +161,11 @@ it willl nort return anything so always use the datattype
 Functions:
 different ways to write function as business logic which can be reused 
 
-GenericFunction:
-Arrow Function:
+GenericFunctions:
+can create a generic method so that can pass any datatype to it.
+
+Classes:
+ES6 onwards and all we have introduced class syntax
 
 
 

@@ -33,3 +33,13 @@ function add2(num1:number , num2:number, ...num3:number[]):number{
 }
 console.log(add2(10,20,...[30,40,50])); 
 
+//Generic function
+function getItems<Type>(items: Type[]): Type[]{
+  return new Array<Type>().concat(items);
+}
+
+let concatResult = getItems([1,2,3]);
+console.log(concatResult);
+
+let concatResult1 = getItems(["Emeema","Anu","Asha"]);
+console.log(concatResult1);

@@ -28,4 +28,12 @@ function add2(num1, num2, ...num3) {
     return num1 + num2 + num3.reduce((accum, current) => accum + current, 0);
 }
 console.log(add2(10, 20, ...[30, 40, 50]));
+//Generic function
+function getItems(items) {
+    return new Array().concat(items);
+}
+let concatResult = getItems([1, 2, 3]);
+console.log(concatResult);
+let concatResult1 = getItems(["Emeema", "Anu", "Asha"]);
+console.log(concatResult1);
 //# sourceMappingURL=functions.js.map

@@ -167,6 +167,17 @@ can create a generic method so that can pass any datatype to it.
 Classes:
 ES6 onwards and all we have introduced class syntax
 
+In other progrmming language we can have both default and parameterised constructor but in TS we can have only either of them not two.
+
+why to create class:
+a class is responsible to handle the business logic 
+
+#id -> means a private property/ private variable
+
+protected property can be accessible within the respective class and the extended class
+which is called as inheritance in other programming languagess
+
+static members are accessed using class name like C# only
 
 
 

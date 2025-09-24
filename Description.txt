@@ -162,7 +162,7 @@ Functions:
 different ways to write function as business logic which can be reused 
 
 GenericFunction:
-
+Arrow Function:
 
 
 

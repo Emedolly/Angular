@@ -31,4 +31,5 @@ console.log(restUsers);
 //Filter a value
 let result = restUsers.filter((user) => user.name === "doll1");
 console.log(result);
+//While doing the filter always use the entire array instead of only the resmaining elements 
 //# sourceMappingURL=interface.js.map

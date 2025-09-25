@@ -210,6 +210,35 @@ to return the return type use classes not interfaces
 
 verbatismmodulesyntax made to false becasue while import interface hace to use import type instead of only import
 
+Decorators:
+experiemental feature in TS lot of fmks use decorators 
+they can be applied on class and methods
+we can change the behaviour of method or class in run time
+used internally in angular
 
+//Decorators
+// @Component({})
+// class Component
+//   {constructor(public name:string){}
+// }
+// experimental options:
+// experiementaldecorators:true;
+// emitdecoratormetadata:true
+//the above options should be enabled in tsconfig.json file
+
+outdir: all the generated js will be stored there
+
+sourceMap: 
+to debug the program 
+because you will write the code in TS but you will run the code in browser using JS so by eanbling this we can do the debugging
+
+you can delete all the js files and run tsc it will generate the proper js and map files
+after the files are getting generated in dist running node interface is not working and throwing error as module not found 
+to resolve this simply use in config file 
+"include": ["*.ts"],
+  "exclude": ["node_modules", "dist"]
+  or node dist/interface => this is working correctly
+
+Even though errors are there in TS still it will compile and generate the files output will be always generated 
 
 

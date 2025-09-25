@@ -179,5 +179,37 @@ which is called as inheritance in other programming languagess
 
 static members are accessed using class name like C# only
 
+Interfaces:
+dont use I  as prefix 
+to create your own user defined datatypes
+can have function definitions(will use this soon)
+
+inside class it is not recommended to use interface 
+
+in typescript you can refer to an object which is in different file and can use it in another file
+whichever the object you want to use outside for that you have to use export word 
+ex: export interface Login
+and where you want to use that file use import word and give the relative path of that file but dont use the extension of the file
+
+there are multiple wayt to import 
+1.import {Login, User} from './interface';
+2.import * as UserLogin from './interface'; //refer everywhere as userlogin instead of user in the class.ts (not recommended)
+
+what if i want to get only name and email property from the object 
+let user : User={
+  name:"Emeema",
+  age:30,
+  id:101,
+  email:"dolly@gmail.com"};
+  by using like this or 
+  user.name;
+  user.email;
+
+**interfaces are not part of the javascript so when you compile the code you wont see any interfaces in the js file and while production also this can be removed so you have to decide whether to use interfaces or classes
+to return the return type use classes not interfaces
+
+verbatismmodulesyntax made to false becasue while import interface hace to use import type instead of only import
+
+
 
 

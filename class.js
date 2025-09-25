@@ -1,9 +1,16 @@
 "use strict";
+// interface Address{
+//   street:string;
+//   city: string;
+//   state: string;
+//   pin: number;
+// }
 Object.defineProperty(exports, "__esModule", { value: true });
 class Employee {
     #id;
     name;
-    address;
+    // address:Address; as soon as we import the address interface but constructor type should also be changed so this is where will get the error
+    address; // public by default
     get empId() {
         return this.#id;
     }
@@ -18,6 +25,12 @@ class Employee {
         this.#id = id;
         this.name = name;
         this.address = address;
+    }
+    login() {
+        return { name: "Emeema",
+            age: 30,
+            id: 101,
+            email: "dolly@gmail.com" };
     }
     getNameWithAddress() {
         return `${this.name} stays in  ${this.address}`;

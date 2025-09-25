@@ -1,7 +1,24 @@
-class Employee{
+// interface Address{
+//   street:string;
+//   city: string;
+//   state: string;
+//   pin: number;
+// }
+
+// interface Address{
+//   street:string;
+//   city: string;
+//   state: string;
+//   pin: number;
+// }
+import {Login, User} from './interface';
+
+
+class Employee implements Login{
   #id:number;
   protected name:string;
-  address:string;
+  // address:Address; as soon as we import the address interface but constructor type should also be changed so this is where will get the error
+  address:string; // public by default
 
   get empId():number{
     return this.#id;
@@ -20,7 +37,12 @@ this.#id=id;
 this.name=name;
 this.address=address;
   }
-
+  login(): User {
+    return {name:"Emeema",
+  age:30,
+  id:101,
+  email:"dolly@gmail.com"};
+  }
   getNameWithAddress():string{
     return `${this.name} stays in  ${this.address}`;
   }

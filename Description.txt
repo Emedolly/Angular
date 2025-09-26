@@ -241,4 +241,6 @@ to resolve this simply use in config file
 
 Even though errors are there in TS still it will compile and generate the files output will be always generated 
 
+Installed Angular CLI and created a hotelInventory project
+
 

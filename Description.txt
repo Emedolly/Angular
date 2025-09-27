@@ -243,4 +243,32 @@ Even though errors are there in TS still it will compile and generate the files 
 
 Installed Angular CLI and created a hotelInventory project
 
+tsconfig.json 
+tsconfig.app.json->extends tssconfig.json
+tsconfig.spec.json->extends tsconfig.json
+
+all the unit test files will be generrated as spec.ts or whatever the extension in .spc.json file for the unit testing
+the copiled unit test code will be therein .spec.json
+
+Readme file -> information for the repositories
+
+package.json
+this will contain all the packages which we are using and there are commands on how to run the application in scripts section 
+
+dependencies and devdependecies :
+Any packages which is required for production build goes into dependencies and the packages which are required while developing and which are not part of production goes into  devdependecies
+ex:jasmine is required for testing which will not be part of devdependecies
+
+-lock.json 
+used by CI pipeline if its small team can delete this 
+if its large org then can track who and all updating the version in git commit change
+
+karma - 
+its a task runner to run the test files we can use jasmine to write the test and can run throug this
+
+angular.json-
+will contain the info about the workspace
+
+gitignore-
+to ignore to not checkin of dolly
 

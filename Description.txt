@@ -272,3 +272,32 @@ will contain the info about the workspace
 gitignore-
 to ignore to not checkin of dolly
 
+Inside SRC Folder::
+styles.CSS
+used to give styles globally
+
+Polyfill.cs->angular13
+important file 
+does all the browsers supports all the versions of JS "no" so this file ensures the older code is compatible with the respective browsers
+
+main.ts
+execution starts from this which is the entry point of the application
+
+index.HTML
+Serves to user 
+
+SPA:
+All the fmks use SPA will discuss when we are doing routing 
+
+environments folder->Angular 13
+
+App::
+App.module.ts->angular 13
+app.components.ts->angualr 13
+
+Mono-repo:
+to have multiple applications/libraries inside a single workspace
+we can use all the codes with in the single repositories
+easy to share code with in project
+deploy multiple libs from same repo
+

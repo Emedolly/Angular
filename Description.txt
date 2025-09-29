@@ -301,3 +301,30 @@ we can use all the codes with in the single repositories
 easy to share code with in project
 deploy multiple libs from same repo
 
+NGModules-> it is a metadata information of different dll and all for the compiler time
+
+Component -> 
+whenever we are creating a component it will generate 4 files ex: app.ts , aop.spec.ts, app.scss, and app.HTML
+
+Componets are views which are rendered to the user
+
+app.ts -> selector ->will be creating multiple and repeated tags here in this which we will be creating and rendering whereever its required 
+
+templateURL: where the user can view the page 
+
+ng serve -o -> will be running in a watch mode which means this will launch the whatever we updated the change
+
+isntall-> angular language services(to finish the code using intellicense)
+
+
+angular prefers to use the prefix for any element so in angular.json file if prefix is hinv then 
+in index.html file also have to give hinv-root element and in app.ts also have to give selecor prefix as hinv-root 
+app.ts selector name and the angular.json file prefix should be same and can add root name
+
+Template Syntax:
+ng generate component rooms -> 4 files will get generated
+shortcut: ng g c rooms
+
+why we create front-end application?
+we create because to show the view to the end-user on the screen 
+

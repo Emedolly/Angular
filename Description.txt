@@ -328,3 +328,30 @@ shortcut: ng g c rooms
 why we create front-end application?
 we create because to show the view to the end-user on the screen 
 
+Binding :-
+interpolation :<h1>Welcome to {{hotelName}}</h1>
+property binding: valid html property/tag you have to use otherwise it will throw inline error
+<div [innerText]="numberOfRooms + ' Rooms are available'">
+</div>
+event binding:
+in jS onclick is the event 
+in angular (click) is the event 
+Revice:rooms.html and room.ts
+
+Directives:
+->Are use to change the behaviour and appearanec of DOM element 
+->can implement all lifecycle hooks
+->can not have template
+components will have templates but Directives does not have template file
+Types:
+structural directives:
+alwasy costlier which can give performace issues
+attribute directives:
+most of the people used
+
+Built-In Directives:
+*ngIf
+*ngFor
+*ngSwitch
+ngClass
+ngStyle

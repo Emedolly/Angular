@@ -361,3 +361,5 @@ used to check the if statement
 
 @ngFor - to bind the array of data will be using this and to do any looping also will consider this one only 
 Revice:rooms.html and room.ts roominterface.ts files
+
+Knowing the folder structure and execution process
